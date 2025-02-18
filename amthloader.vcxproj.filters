@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\encrypt-decrypt">
+      <UniqueIdentifier>{3952d984-1fd7-440b-ac47-814d3b8a80da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\utilities">
+      <UniqueIdentifier>{bf708d9e-a597-479b-855c-de9f2aec9509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\config">
+      <UniqueIdentifier>{8cb08fb1-658e-4db1-b8ff-9b80db169159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sha512">
+      <UniqueIdentifier>{077d146f-f9e2-4475-b8b4-29d5eeb4905a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\driverandmapper">
+      <UniqueIdentifier>{af1da889-772b-4c0d-83e3-e4be9f65c8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ImGui">
+      <UniqueIdentifier>{f7d7b313-a55e-490c-b0f4-b3930f7d35c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\superiorprotection">
+      <UniqueIdentifier>{f9e15043-a0b3-4764-8ddc-a7d9d0abb553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\curl">
+      <UniqueIdentifier>{18d683ca-18f3-4f89-b85a-404e9f0007e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="encrypt-decrypt\encrypt-decrypt.cpp">
+      <Filter>Исходные файлы\encrypt-decrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\process_helper.cpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\utilities.cpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="config\Tools.cpp">
+      <Filter>Исходные файлы\config</Filter>
+    </ClCompile>
+    <ClCompile Include="sha512\sha512.cpp">
+      <Filter>Исходные файлы\sha512</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ResourceManager.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\Vector.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="amthloader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="webclient.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="security.cpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="superiorprotection\ParentProcess.cpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_freetype.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="encrypt-decrypt\encrypt-decrypt.hpp">
+      <Filter>Исходные файлы\encrypt-decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt-decrypt\md5.hpp">
+      <Filter>Исходные файлы\encrypt-decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt-decrypt\xorstr.hpp">
+      <Filter>Исходные файлы\encrypt-decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\lazy_importer.hpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\process_helper.hpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\utilities.hpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="config\Tools.hpp">
+      <Filter>Исходные файлы\config</Filter>
+    </ClInclude>
+    <ClInclude Include="sha512\sha512.hpp">
+      <Filter>Исходные файлы\sha512</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="fap.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerHashFunc.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="getapi.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="export_work.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_work.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MurmurHash2A.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="debugsekr.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="debugsecurity.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="security.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ScyllaHideDetector.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="anti-hook.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="syscalls.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="client.hpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="native.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="apiset.cpp">
+      <Filter>Исходные файлы\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>Исходные файлы\driverandmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Исходные файлы\driverandmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="xora.h">
+      <Filter>Исходные файлы\driverandmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ResourceManager.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Vector.hpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Bytes.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="iconrust.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="webclient.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\BeingDebugged.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\CheckRemoteDebuggerPresent.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\CloseHandle_InvalidHandle.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\ForceFlags.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\HardwareBreakpoints.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\HeapFlags.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\Interrupt_3.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\MemoryBreakpoints_PageGuard.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\NtGlobalFlag.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\NtQueryInfo_ProcessDebugFlags.h">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\NtQueryInfo_ProcessDebugObject.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\NtQueryInfo_ProcessDebugPort.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\NtQueryObj_ObjTypeInfo.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\NtSetInfoThread_HideFromDebugger.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\OutputDebugString.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\ParentProcess.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\SeDebugPrivilege.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\SetHandleInfo_API.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\SoftwareBreakpoints.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorprotection\UnhandledExceptionFilter.hpp">
+      <Filter>Исходные файлы\superiorprotection</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_freetype.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_settings.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_settings.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ImSpinner.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype-windows-binaries-master\include\ft2build.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\header.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\options.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\system.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\typecheck-gcc.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\urlapi.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\websockets.h">
+      <Filter>Исходные файлы\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="other_f.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes_product.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="freetype-windows-binaries-master\release static\vs2015-2022\win64\freetype.lib">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>Исходные файлы\curl</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="curl\.gitignore">
+      <Filter>Исходные файлы\curl</Filter>
+    </None>
+    <None Include="curl\Makefile.am">
+      <Filter>Исходные файлы\curl</Filter>
+    </None>
+  </ItemGroup>
+</Project>
